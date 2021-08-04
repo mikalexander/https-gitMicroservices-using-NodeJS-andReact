@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/dejonyadigg/.nvm/versions/node/v15.8.0/bin/node /Users/dejonyadigg/.nvm/versions/node/v15.8.0/bin/yarn add express nodemon axious
+
+PATH: 
+  /Users/dejonyadigg/.nvm/versions/node/v15.8.0/bin:/Users/dejonyadigg/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/axious: Not found
+      at Request.params.callback [as _callback] (/Users/dejonyadigg/.nvm/versions/node/v15.8.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/dejonyadigg/.nvm/versions/node/v15.8.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:378:20)
+      at Request.<anonymous> (/Users/dejonyadigg/.nvm/versions/node/v15.8.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:378:20)
+      at IncomingMessage.<anonymous> (/Users/dejonyadigg/.nvm/versions/node/v15.8.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:484:28)
+      at IncomingMessage.emit (node:events:390:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+    "name": "event-bus",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
